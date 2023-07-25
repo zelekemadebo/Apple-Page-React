@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+</head>
+<body style="background-color: darkgray;" >
+
+    <div class="d-flex justify-content-around my-5">
+        <button
+            type="button"
+            class="btn btn-primary"
+            onclick="displayForm('alter','edit', 'new', 'delete')"
+        >
+            alter
+        </button>
+        <button
+            type="button"
+            class="btn btn-success"
+            onclick="displayForm('new', 'edit', 'delete', 'alter')"
+        >
+            New
+        </button>
+        <button
+            type="button"
+            class="btn btn-warning"
+            onclick="displayForm('edit', 'new','delete', 'alter')"
+        >
+            Edit
+        </button>
+        <button
+            type="button"
+            class="btn btn-danger"
+            onclick="displayForm('delete','edit', 'new', 'alter')"
+        >
+            Delete
+        </button>
+        
+    </div>
+
+
+
+    <section class="mx-auto my-3 w-75 alter" style="zoom: 110%; display: none;">
+        <h1>Add iPhone</h1>
+        <form action="http://localhost:2024/add-product" method="post" >
+          <label for="name">iPhone ID:</label><br />
+          <input type="text" name="iphoneId" />
+          <br /><br />
+          <label for="imgPath">iPhone image path:</label><br />
+          <input type="text" name="imgPath" />
+          <br /><br />
+          <label for="iphoneLink">iPhone page link:</label><br />
+          <input type="text" name="iphoneLink"  />
+          <br /><br />
+          <label for="iphoneTitle">iPhone Title:</label><br />
+          <input type="text" name="iphoneTitle" />
+          <br /><br />
+          <label for="StartPrice">Starting price:</label><br />
+          <input type="text" name="StartPrice" />
+          <br /><br />
+          <label for="priceRange">Price range:</label><br />
+          <input type="text" name="priceRange" />
+          <br /><br />
+    
+          <label for="briefDescription">Brief Description:</label><br />
+          <textarea name="briefDescription" cols="30" rows="3"></textarea>
+          <br /><br />
+          <label for="fullDescription">Full Description:</label><br />
+          <textarea name="fullDescription" cols="30" rows="3"></textarea>
+          <br /><br />
+
+          <label for="userName">User name</label><br />
+          <input type="text" name="userName" />
+          <br /><br />
+          <label for="userPassword">User password</label><br />
+          <input type="password" name="userPassword" />
+          <br /><br />
+
+          <input type="submit" value="App iPhone" />
+        </form>
+    </section>
+    <section class="mx-auto my-3 w-75 new">
+        <h1>Insert Customer Info</h1>
+        <form
+            action="http://localhost:2024/insert-customers-info"
+            method="post"
+            style="zoom: 200%"
+        >
+            <label for="name">Name:</label><br />
+            <input type="text" name="name" /><br /><br />
+
+            <label for="address">Address:</label><br />
+            <input type="text" name="address" /><br /><br />
+
+            <label for="company">Company:</label><br />
+            <input type="text" name="company" /><br /><br />
+
+            <button type="submit" class="btn btn-dark">Submit Info</button>
+        </form>
+    </section> 
+        
+		<section class="mx-auto my-3 w-75 edit" style="display: none">
+			<h1>Update Customer Name</h1>
+
+			<form id="myForm" style="zoom: 200%">
+				<label for="name">ID:</label><br />
+				<input type="text" name="id" /><br /><br />
+
+				<label for="name">New Name:</label><br />
+				<input type="text" name="updatedName" /><br /><br />
+				<button class="btn btn-dark">Submit Updated Name</button>
+			</form>
+		</section>
+
+		<section class="mx-auto my-3 w-75 delete" style="display: none">
+			<h1>Delete User</h1>
+
+			<form id="delete-user" style="zoom: 200%">
+				<label for="name">ID:</label><br />
+				<input type="text" name="id" /><br /><br />
+				<button class="btn btn-dark">Delete User</button>
+			</form>
+		</section>
+
+        
+        
+		
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "product_id": 20,
+      "product_url": "macbookair",
+      "product_name": "MacBook Air",
+      "description_id": 17,
+      "product_brief_description": "Power. It's in the Air.",
+      "product_description": "The incredibly thin and light MacBook Air is now more powerful than ever. It features the latest Apple-designed M1 chip for blazing-fast performance, stunning Retina display, and all-day battery life.",
+      "product_img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1653499620093",
+      "product_link": "https://www.apple.com/macbook-air/",
+      "price_id": 17,
+      "starting_price": "$999",
+      "price_range": "From $999 or $83.25/mo. for 12 mo."
+    },
+    {
+      "product_id": 21,
+      "product_url": "macbookpro",
+      "product_name": "MacBook Pro",
+      "description_id": 19,
+      "product_brief_description": "More power. More pro.",
+      "product_description": "The new MacBook Pro is the ultimate pro notebook. It features the powerful M1 Pro or M1 Max chip, stunning Liquid Retina XDR display with ProMotion, and extraordinary battery life. Take your productivity and creativity to the next level.",
+      "product_img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-14-16-202301?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1670463778272",
+      "product_link": "https://www.apple.com/macbook-pro/",
+      "price_id": 19,
+      "starting_price": "$1,999",
+      "price_range": "From $1,999 or $166.58/mo. for 12 mo."
+    },
+    {
+      "product_id": 23,
+      "product_url": "imac",
+      "product_name": "iMac",
+      "description_id": 21,
+      "product_brief_description": "Say hello.",
+      "product_description": "The all-new iMac is a strikingly thin and powerful all-in-one computer. It features the vibrant 24-inch Retina display, Apple M1 chip, and a range of stunning colors. Get ready to elevate your workspace.",
+      "product_img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202108?wid=490&hei=500&fmt=jpeg&qlt=95&.v=1625868688000",
+      "product_link": "https://www.apple.com/imac/",
+      "price_id": 21,
+      "starting_price": "$1,299",
+      "price_range": "From $1,299 or $108.25/mo. for 12 mo."
+    },
+    {
+      "product_id": 26,
+      "product_url": "macpro",
+      "product_name": "Mac Pro",
+      "description_id": 23,
+      "product_brief_description": "Unleash your inner pro.",
+      "product_description": "Designed for professionals who push the boundaries of what a Mac can do, the Mac Pro is the ultimate workstation. With immense power, unparalleled expansion capabilities, and stunning design, it sets a new standard for performance and creativity.",
+      "product_img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-13-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1665082744007",
+      "product_link": "https://www.apple.com/mac-pro/",
+      "price_id": 23,
+      "starting_price": "$5,999",
+      "price_range": "From $5,999"
+    }
+  ]
+}
